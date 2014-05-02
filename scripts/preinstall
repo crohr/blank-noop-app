@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "hello from PREinstall"
+echo "args: $@"
