@@ -1,3 +1,12 @@
 buildpack: https://github.com/pkgr/pkgr-noop-buildpack
 before_install: scripts/preinstall
 after_install: scripts/postinstall
+before_remove: scripts/preremove
+after_remove: scripts/postremove
+user: hello1
+group: hello2
+#addons:
+#  - dummy
+#  - https://github.com/pkgr/addon-mysql#master
+crons:
+  - packaging/crons/cron1

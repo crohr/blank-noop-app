@@ -1,0 +1,1 @@
+* * * * * root blank-noop-app run echo "yoh" >> /tmp/log.log
