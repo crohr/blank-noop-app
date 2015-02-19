@@ -1,3 +1,10 @@
 buildpack: https://github.com/pkgr/pkgr-noop-buildpack
 before_install: scripts/preinstall
 after_install: scripts/postinstall
+targets:
+  debian-7:
+  ubuntu-12.04:
+  ubuntu-14.04:
+  centos-6:
+  sles-12:
+  fedora-20:
