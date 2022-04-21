@@ -10,5 +10,4 @@ targets:
   centos-6:
   centos-7:
   sles-12:
-  sles-11:
   fedora-20:
