@@ -11,3 +11,4 @@ targets:
   centos-7:
   sles-12:
   fedora-20:
+  ubuntu-22.04:
