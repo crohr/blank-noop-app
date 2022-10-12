@@ -1,6 +1,8 @@
 buildpack: https://github.com/pkgr/pkgr-noop-buildpack#master
 before_install: scripts/preinstall
 after_install: scripts/postinstall
+before: scripts/before_compile.sh
+after: scripts/after_compile.sh
 targets:
   debian-8:
   debian-9:
