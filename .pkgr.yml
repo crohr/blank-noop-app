@@ -16,3 +16,4 @@ targets:
   centos-7:
   centos-8:
   sles-12:
+  sles-15:
